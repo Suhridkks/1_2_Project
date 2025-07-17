@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="HomePageLayout" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinevotingsystem.HomePageController">
+   <children>
+      <Pane fx:id="HomePageView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <ImageView fx:id="homepage" fitHeight="600.0" fitWidth="800.0" mouseTransparent="true" pickOnBounds="true" style="-fx-fit-height: 600; -fx-fit-width: 800;">
+               <image>
+                  <Image url="@../../../images/1.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <Button fx:id="adminlogin" layoutX="31.0" layoutY="174.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="35.0" prefWidth="99.0" style="-fx-text-fill: transparent; -fx-background-color: transparent; -fx-border-color: transparent;" text="Button" />
+            <Button fx:id="voterlogin" layoutX="32.0" layoutY="234.0" mnemonicParsing="false" onAction="#voterLogin" prefHeight="41.0" prefWidth="99.0" style="-fx-background-color: transparent; -fx-border-color: transparent; -fx-text-fill: transparent;" text="Button" />
+            <Button fx:id="pastelection" layoutX="18.0" layoutY="344.0" mnemonicParsing="false" onAction="#pastElection" prefHeight="72.0" prefWidth="136.0" style="-fx-background-color: transparent; -fx-border-color: transparent; -fx-text-fill: transparent;" text="Button" />
+            <Button fx:id="exit" layoutX="45.0" layoutY="453.0" mnemonicParsing="false" onAction="#exit" prefHeight="41.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: transparent; -fx-text-fill: transparent;" text="Button" />
+         </children>
+      </Pane>
+   </children>
+</StackPane>

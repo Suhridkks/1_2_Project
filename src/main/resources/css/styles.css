@@ -1,0 +1,11 @@
+.transparent-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: transparent;
+}
+
+.transparent-button:hover {
+    -fx-background-color: rgba(145, 145, 145, 0.8); /* light green glow */
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
