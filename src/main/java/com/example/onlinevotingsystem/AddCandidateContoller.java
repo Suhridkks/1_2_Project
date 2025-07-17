@@ -7,7 +7,9 @@ import javafx.scene.layout.StackPane;
 
 import java.io.IOException;
 
-public class AddCandidateContoller {
+public class
+
+AddCandidateContoller {
     @FXML
     private StackPane AddCandidateLayout;
 //this is a test change
