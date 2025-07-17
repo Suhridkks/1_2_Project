@@ -10,7 +10,7 @@ import java.io.IOException;
 public class AddCandidateContoller {
     @FXML
     private StackPane AddCandidateLayout;
-
+//this is a test change
     @FXML
     private Pane AddCandidateView;
 
